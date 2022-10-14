@@ -27,5 +27,14 @@ const removeFromArray = function(arr, ...myArgs) {
 
 console.log(removeFromArray([1, 2, 3, 4, "hey"], 3, 2))
 
+// A simpler, but more advanced way to do it is to use the 'filter' function,
+// 
+
+// var removeFromArray = function(...args) {
+//   const array = args[0]
+//   return array.filter(val => !args.includes(val))
+// }
+//
+
 // Do not edit below this line
 module.exports = removeFromArray;
