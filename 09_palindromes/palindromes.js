@@ -15,6 +15,14 @@ const palindromes = function (str) {
     }
 };
 
+// OR
+/**
+const palindromes = function(string) {
+   processedString = string.toLowerCase().replace(/[^a-z]/g, "");
+   return (processedString.split("").reverse().join("") == processedString);
+};
+ */
+
 console.log(palindromes('ZZZZ car, a man, a maracaz.'))
 
 // Do not edit below this line
